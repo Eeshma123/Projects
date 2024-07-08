@@ -1,0 +1,61 @@
+/* CSS Document */
+img {
+	height: 250px;
+	width: auto;
+	align-content: center;
+	align-items: center;
+	border-radius: 20px;
+}   
+.div1 {
+	background-color: white;
+	padding: 20px;
+	border-radius: 10px;
+}
+.ul1{
+	background-color: #FFEDE7;
+	font: 400;
+	font-size: 16px;
+	font-family: 'Outfit', sans-serif;
+	border-radius: 10px;
+}
+li,p,td {
+	font-size: 16px;
+	font-family: 'Outfit', sans-serif;
+}
+h1,h2 {
+	font-family: 'Young Serif', serif;
+	font-weight: 400;
+	color: #744B3D;
+}
+ tr {
+	border-bottom: #000000 thick solid;
+	padding: 10px;
+}
+span {
+	font-weight: 600;
+	color: #36454F;
+}
+body {
+	background-color: #FFEDE7;
+}
+body {
+	padding-left: 350px;
+	padding-right: 350px;
+}
+.td {
+	padding-right: 300px;
+	padding-left: 100px;
+	color: #744B3D;
+	font-weight: 600;
+}
+.td2 {
+	padding-right: 50px;
+	color:#36454F; 
+}
+.h2 {
+	font-size: 20px;
+	margin-top: 10px;
+}
+p {
+	color: #36454F;
+}
