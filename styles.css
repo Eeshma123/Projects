@@ -1,0 +1,63 @@
+/* CSS Document */
+body {
+	background-color: black;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.main-card {
+	background-color: hsl(0, 0%, 8%);
+	width: 350px;
+	border-radius: 20px;
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	text-align: center;
+	padding: 20px;
+}
+
+.card-img {
+	border-radius: 50%;
+	width: 100px;
+	height: auto;
+	margin-bottom: 10px;
+}
+
+.card-heading {
+	color: white;
+	font-family: "Inter", sans-serif;
+	font-weight: 600;
+	font-size: 25px;
+	margin-bottom: 0px;
+}
+
+.card-subheading {
+	color: hsl(75, 94%, 57%);
+	font-family: "Inter", sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+
+.card-quote {
+	color: white;
+	font-family:"Inter", sans-serif;
+	font-weight: 400;
+	font-size: 14px;
+	margin-bottom: 20px;
+}
+
+.card-paragraph {
+	color: white;
+	font-family: "Inter", sans-serif;
+	font-size: 14px;
+	font-weight: 600px;
+	background-color: hsl(0, 0%, 20%);
+	border-radius: 10px;
+	padding: 20px;
+	margin-bottom: 15px;
+}
+
+
