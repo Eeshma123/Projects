@@ -1,0 +1,181 @@
+/* CSS Document */
+
+/*Card Blue*/
+
+body {
+	font-family: 'Hanken Grotesk', sans-serif;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.card-main {
+	display: flex;
+	justify-content: space-around;
+	align-content: space-around;
+	box-shadow: 0 50px 50px 0 rgba(0, 0, 0, 0.2), 0 50px 50px 0 rgba(0, 0, 0, 0.19);
+	position: absolute;
+	top: 50%;
+	transform: translate(0, -50%);
+	border-radius: 30px;
+}
+
+.card-blue {
+	background-image: linear-gradient(to bottom, hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+	width: 220px;
+	padding-top: 20px;
+	padding-bottom: 50px;
+	padding-left: 70px;
+	padding-right: 70px;
+	text-align: center;
+	vertical-align: center;
+	display: grid;
+	justify-content: center;
+	align-content: center;
+	border-radius: 30px;
+}
+
+.card-blue-heading1 {
+	color: hsl(241, 100%, 89%);
+	font-size: 23px;
+	font-weight: 700;
+}
+
+.card-blue-circle {
+	background-image: linear-gradient(to bottom, hsla(256, 72%, 46%, 1), hsla(241, 72%, 46%, 0));
+	height: 200px;
+	width: 200px;
+	border-radius: 50%;
+	margin: 0;
+	margin-top: 10px;
+	align-self: center;
+}
+
+.card-blue-heading2 {
+	color: white;
+	font-size: 80px;
+	font-weight: 800;
+	margin: 0;
+	vertical-align: center;
+}
+
+.card-blue-paragraph {
+	color: hsl(241, 100%, 89%);
+	font-size: 18px;
+	font-weight: 500;
+	margin: 0;
+}
+
+.card-blue-heading3 {
+	color: white;
+	font-size: 30px;
+	margin-bottom: 20px;
+	margin-top: 20px;
+	font-weight: 700;
+	
+}
+
+/*Card White*/
+
+.card-white {
+	width: 270px;
+	padding-top: 25px;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.card-white-heading {
+	font-size: 23px;
+	color: hsl(224, 30%, 27%);
+}
+
+.card-white-score-list {
+	font-size: 18px;
+	font-weight: 500;
+}
+
+.card-white-scores-span {
+	color: hsl(224, 30%, 27%, 0.5);
+	font-weight: 800;
+}
+
+.card-white-scores {
+	color: hsl(224, 30%, 27%);
+	font-weight: 800;
+}
+
+.card-white-reaction {
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	border-radius: 10px;
+	background-color: hsl(0, 100%, 67%, 0.05);
+	margin-bottom: 10px;
+	padding: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.card-white-reaction-text {
+	color: hsl(0, 100%, 67%); 
+}
+
+.card-white-memory {
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	border-radius: 10px;
+	background-color: hsl(0, 100%, 67%, 0.05);
+	margin-bottom: 10px;
+	padding: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.card-white-memory-text {
+	color: hsl(39, 100%, 56%);
+}
+
+.card-white-verbal {
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	border-radius: 10px;
+	background-color: hsl(166, 100%, 37%, 0.05);
+	margin-bottom: 10px;
+	padding: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.card-white-verbal-text {
+	color: hsl(166, 100%, 37%);
+}
+
+.card-white-visual {
+	display: flex;
+	justify-content: space-between;
+	align-content: space-between;
+	border-radius: 10px;
+	background-color: hsl(234, 85%, 45%, 0.05);
+	margin-bottom: 10px;
+	padding: 0px;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.card-white-visual-text {
+	color: hsl(234, 85%, 45%);
+}
+
+.card-white-button {
+	color: hsl(0, 0%, 100%);
+	background-color: hsl(224, 30%, 27%);
+	font-size: 15px;
+	font-weight: 800px;
+	text-align: center;
+	padding: 10px 40px 10px 40px;
+	width: 100%;
+	margin-top: 15px;
+	border-radius: 50px;
+}
