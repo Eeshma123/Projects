@@ -238,6 +238,31 @@ h1 {
   color: #3e2753;
 }
 
+
+/* BACKGROUND */
+
+body::after,body::before {
+	position: fixed;
+	content: "";
+	width: 28vw;
+	height: 85vh;
+	background:linear-gradient(to bottom,#e570ff ,#9241c8);
+	border-radius: 0 0 100vmax 100vmax;
+	left: -2rem;
+	top: 0;
+}
+
+body::after {
+	opacity: 0.05;
+	border-radius:100vmax 100vmax 0 0;
+	right: -8rem;
+	left: initial;
+	top: initial;
+	bottom: 0;
+}
+
+/* ---------- */
+
 @media (max-width: 900px){
   body {
     background-image: url(images/bg-tablet.svg);
