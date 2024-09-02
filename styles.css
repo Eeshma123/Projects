@@ -250,6 +250,8 @@ body::after,body::before {
 	border-radius: 0 0 100vmax 100vmax;
 	left: -2rem;
 	top: 0;
+	min-width: 23rem;
+	z-index: -1;
 }
 
 body::after {
