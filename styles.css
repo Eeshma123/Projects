@@ -1,0 +1,90 @@
+/* CSS Document */
+body {
+	background-color: hsl(0, 0%, 98%);
+	font-family: 'Poppins', sans-serif;
+}
+
+.heading{
+	font-weight: 200;
+	color: hsl(234, 12%, 34%);
+	text-align: center;
+}
+
+.heading-span {
+	font-weight: 600;
+	color: hsl(234, 12%, 34%);
+}
+
+.paragraph {
+	text-align: center;
+	font-weight: 400;
+	color: hsl(229, 6%, 66%);
+	font-size: 15px;
+	margin-bottom: 50px;
+}
+
+.mains-card {
+	display: grid;
+ 	grid-template-columns: 1fr 1fr 1fr;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+}
+
+.card-heading {
+	color: hsl(234, 12%, 34%);
+	font-weight: 700;
+	font-size: 20px;
+	margin-bottom: 10px;
+	text-align: left;
+}
+
+.card-paragraph {
+	color: hsl(229, 6%, 66%);
+	font-weight: 400;
+	font-size: 15px;
+	margin-top: 0px;
+	text-align: left;
+}
+
+.card-img {
+	justify-content: flex-end;
+}
+
+.card-supervisor {
+	border-top: hsl(180, 62%, 55%) solid thick 10px;
+	border-radius: 10px;
+	width: 300px;
+	height: 180px;
+	background-color: white;
+	padding: 20px;
+	text-align: right;
+}
+
+.card-team {
+	border-radius: 10px;
+	width: 300px;
+	background-color: white;
+	padding: 20px;
+	height: 180px;
+	margin: 0px 30px 30px 30px;
+	text-align: right;
+}
+
+.card-karma {
+	border-radius: 10px;
+	width: 300px;
+	background-color: white;
+	padding: 20px;
+	height: 180px;
+	text-align: right;
+}
+
+.card-calculator {
+	border-radius: 10px;
+	width: 300px;
+	background-color: white;
+	padding: 20px;
+	height: 180px;
+	text-align: right;
+}
